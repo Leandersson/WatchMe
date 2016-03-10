@@ -7,16 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274D02151C73CF4C002F3E72 /* DetailedViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274D02141C73CF4C002F3E72 /* DetailedViewVC.swift */; };
+		274D02171C73F4E1002F3E72 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274D02161C73F4E1002F3E72 /* NavigationBar.swift */; };
+		275103A31C7C6FB80090BD1B /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275103A01C7C6F6D0090BD1B /* GPUImage.framework */; };
+		2761CBB51C727571005798DC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761CBB31C727571005798DC /* Movie.swift */; };
+		2761CBB71C7275A6005798DC /* addMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761CBB61C7275A6005798DC /* addMovieVC.swift */; };
+		2761CBB91C72781D005798DC /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2761CBB81C72781D005798DC /* MovieCell.swift */; };
+		276822611C8C6DB40092BE77 /* AddMovieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276822601C8C6DB40092BE77 /* AddMovieButton.swift */; };
+		278C819B1C764B61002BC0AE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 278C819A1C764B61002BC0AE /* Cartfile */; };
+		278C819E1C764EE1002BC0AE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278C819C1C764EE1002BC0AE /* Alamofire.framework */; };
+		278C819F1C764EE1002BC0AE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278C819D1C764EE1002BC0AE /* SwiftyJSON.framework */; };
+		278C81A41C76629B002BC0AE /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 278C819C1C764EE1002BC0AE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		278C81A51C76629B002BC0AE /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 278C819D1C764EE1002BC0AE /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27D8340E1C7BD8B900C6D91D /* Knockout.otf in Resources */ = {isa = PBXBuildFile; fileRef = 27D8340D1C7BD8B900C6D91D /* Knockout.otf */; };
+		27D834181C7BE74E00C6D91D /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D834171C7BE74E00C6D91D /* Movie+CoreDataProperties.swift */; };
 		27DD1BA81C7155AE00BDCF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD1BA71C7155AE00BDCF4B /* AppDelegate.swift */; };
 		27DD1BAA1C7155AE00BDCF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD1BA91C7155AE00BDCF4B /* ViewController.swift */; };
 		27DD1BAD1C7155AE00BDCF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DD1BAB1C7155AE00BDCF4B /* Main.storyboard */; };
 		27DD1BB01C7155AE00BDCF4B /* SeeMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27DD1BAE1C7155AE00BDCF4B /* SeeMe.xcdatamodeld */; };
 		27DD1BB21C7155AE00BDCF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DD1BB11C7155AE00BDCF4B /* Assets.xcassets */; };
 		27DD1BB51C7155AE00BDCF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DD1BB31C7155AE00BDCF4B /* LaunchScreen.storyboard */; };
+		27EC78B21C8C43C1003CC0BD /* Pods_SeeMe.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37CCE60A279CB2CB19B6273E /* Pods_SeeMe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27F248201C871585001BB1F1 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 275103A01C7C6F6D0090BD1B /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A778F91334EF584BAF78B8D /* Pods_SeeMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CCE60A279CB2CB19B6273E /* Pods_SeeMe.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2751039D1C7C6F6D0090BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		2751039F1C7C6F6D0090BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		275103A11C7C6F9C0090BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		278C81A31C766290002BC0AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27EC78B21C8C43C1003CC0BD /* Pods_SeeMe.framework in CopyFiles */,
+				27F248201C871585001BB1F1 /* GPUImage.framework in CopyFiles */,
+				278C81A41C76629B002BC0AE /* Alamofire.framework in CopyFiles */,
+				278C81A51C76629B002BC0AE /* SwiftyJSON.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		27DD1BA41C7155AE00BDCF4B /* SeeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCD0DB5FD16AF116EDBC255 /* Pods-SeeMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeMe/Pods-SeeMe.debug.xcconfig"; sourceTree = "<group>"; };
+		274D02141C73CF4C002F3E72 /* DetailedViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewVC.swift; sourceTree = "<group>"; };
+		274D02161C73F4E1002F3E72 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../../Downloads/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		2761CBB31C727571005798DC /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
+		2761CBB61C7275A6005798DC /* addMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMovieVC.swift; sourceTree = "<group>"; };
+		2761CBB81C72781D005798DC /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		276822601C8C6DB40092BE77 /* AddMovieButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieButton.swift; sourceTree = "<group>"; };
+		278C819A1C764B61002BC0AE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		278C819C1C764EE1002BC0AE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		278C819D1C764EE1002BC0AE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		27D8340D1C7BD8B900C6D91D /* Knockout.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knockout.otf; sourceTree = "<group>"; };
+		27D834171C7BE74E00C6D91D /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "../Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		27DD1BA41C7155AE00BDCF4B /* WatchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DD1BA71C7155AE00BDCF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27DD1BA91C7155AE00BDCF4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27DD1BAC1C7155AE00BDCF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +94,8 @@
 		27DD1BB11C7155AE00BDCF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DD1BB41C7155AE00BDCF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27DD1BB61C7155AE00BDCF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CCE60A279CB2CB19B6273E /* Pods_SeeMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8F14FEC9049CE1D5AA0A4 /* Pods-SeeMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeMe/Pods-SeeMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +103,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275103A31C7C6FB80090BD1B /* GPUImage.framework in Frameworks */,
+				278C819F1C764EE1002BC0AE /* SwiftyJSON.framework in Frameworks */,
+				278C819E1C764EE1002BC0AE /* Alamofire.framework in Frameworks */,
+				3A778F91334EF584BAF78B8D /* Pods_SeeMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B77758F4A333111F6D19D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CCE60A279CB2CB19B6273E /* Pods_SeeMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		275103981C7C6F6D0090BD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2751039E1C7C6F6D0090BD1B /* libGPUImage.a */,
+				275103A01C7C6F6D0090BD1B /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D834131C7BE5E800C6D91D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2761CBB31C727571005798DC /* Movie.swift */,
+				27D834171C7BE74E00C6D91D /* Movie+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27D834141C7BE5F000C6D91D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2761CBB81C72781D005798DC /* MovieCell.swift */,
+				276822601C8C6DB40092BE77 /* AddMovieButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		27D834151C7BE5F500C6D91D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				274D02161C73F4E1002F3E72 /* NavigationBar.swift */,
+				2761CBB61C7275A6005798DC /* addMovieVC.swift */,
+				274D02141C73CF4C002F3E72 /* DetailedViewVC.swift */,
+				27DD1BA91C7155AE00BDCF4B /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		27D834161C7BE5FE00C6D91D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */,
+				278C819C1C764EE1002BC0AE /* Alamofire.framework */,
+				278C819D1C764EE1002BC0AE /* SwiftyJSON.framework */,
+				27D8340D1C7BD8B900C6D91D /* Knockout.otf */,
+				278C819A1C764B61002BC0AE /* Cartfile */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		27DD1B9B1C7155AE00BDCF4B = {
 			isa = PBXGroup;
 			children = (
 				27DD1BA61C7155AE00BDCF4B /* SeeMe */,
 				27DD1BA51C7155AE00BDCF4B /* Products */,
+				36BBD8BEF1FA15C8F2F62B54 /* Pods */,
+				1B77758F4A333111F6D19D62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		27DD1BA51C7155AE00BDCF4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27DD1BA41C7155AE00BDCF4B /* SeeMe.app */,
+				27DD1BA41C7155AE00BDCF4B /* WatchMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +192,27 @@
 		27DD1BA61C7155AE00BDCF4B /* SeeMe */ = {
 			isa = PBXGroup;
 			children = (
-				27DD1BA71C7155AE00BDCF4B /* AppDelegate.swift */,
-				27DD1BA91C7155AE00BDCF4B /* ViewController.swift */,
+				27D834131C7BE5E800C6D91D /* Model */,
+				27D834141C7BE5F000C6D91D /* View */,
+				27D834151C7BE5F500C6D91D /* Controller */,
+				27D834161C7BE5FE00C6D91D /* Util */,
 				27DD1BAB1C7155AE00BDCF4B /* Main.storyboard */,
 				27DD1BB11C7155AE00BDCF4B /* Assets.xcassets */,
 				27DD1BB31C7155AE00BDCF4B /* LaunchScreen.storyboard */,
 				27DD1BB61C7155AE00BDCF4B /* Info.plist */,
 				27DD1BAE1C7155AE00BDCF4B /* SeeMe.xcdatamodeld */,
+				27DD1BA71C7155AE00BDCF4B /* AppDelegate.swift */,
 			);
 			path = SeeMe;
+			sourceTree = "<group>";
+		};
+		36BBD8BEF1FA15C8F2F62B54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCD0DB5FD16AF116EDBC255 /* Pods-SeeMe.debug.xcconfig */,
+				82C8F14FEC9049CE1D5AA0A4 /* Pods-SeeMe.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,17 +222,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27DD1BB91C7155AE00BDCF4B /* Build configuration list for PBXNativeTarget "SeeMe" */;
 			buildPhases = (
+				E5636F4ED88AA7EFD121995A /* Check Pods Manifest.lock */,
 				27DD1BA01C7155AE00BDCF4B /* Sources */,
 				27DD1BA11C7155AE00BDCF4B /* Frameworks */,
 				27DD1BA21C7155AE00BDCF4B /* Resources */,
+				278C81A31C766290002BC0AE /* CopyFiles */,
+				8E0DD9D8757F2C3BFD0E4865 /* Embed Pods Frameworks */,
+				56C03DDDCA6FA781C7432F86 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				275103A21C7C6F9C0090BD1B /* PBXTargetDependency */,
 			);
 			name = SeeMe;
 			productName = SeeMe;
-			productReference = 27DD1BA41C7155AE00BDCF4B /* SeeMe.app */;
+			productReference = 27DD1BA41C7155AE00BDCF4B /* WatchMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +252,7 @@
 				TargetAttributes = {
 					27DD1BA31C7155AE00BDCF4B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CS3U5NPZ2S;
 					};
 				};
 			};
@@ -113,12 +267,35 @@
 			mainGroup = 27DD1B9B1C7155AE00BDCF4B;
 			productRefGroup = 27DD1BA51C7155AE00BDCF4B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 275103981C7C6F6D0090BD1B /* Products */;
+					ProjectRef = 275103971C7C6F6D0090BD1B /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				27DD1BA31C7155AE00BDCF4B /* SeeMe */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2751039E1C7C6F6D0090BD1B /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 2751039D1C7C6F6D0090BD1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		275103A01C7C6F6D0090BD1B /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 2751039F1C7C6F6D0090BD1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		27DD1BA21C7155AE00BDCF4B /* Resources */ = {
@@ -127,24 +304,89 @@
 			files = (
 				27DD1BB51C7155AE00BDCF4B /* LaunchScreen.storyboard in Resources */,
 				27DD1BB21C7155AE00BDCF4B /* Assets.xcassets in Resources */,
+				278C819B1C764B61002BC0AE /* Cartfile in Resources */,
 				27DD1BAD1C7155AE00BDCF4B /* Main.storyboard in Resources */,
+				27D8340E1C7BD8B900C6D91D /* Knockout.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56C03DDDCA6FA781C7432F86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeMe/Pods-SeeMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0DD9D8757F2C3BFD0E4865 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeMe/Pods-SeeMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5636F4ED88AA7EFD121995A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27DD1BA01C7155AE00BDCF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276822611C8C6DB40092BE77 /* AddMovieButton.swift in Sources */,
+				2761CBB91C72781D005798DC /* MovieCell.swift in Sources */,
+				2761CBB71C7275A6005798DC /* addMovieVC.swift in Sources */,
 				27DD1BAA1C7155AE00BDCF4B /* ViewController.swift in Sources */,
 				27DD1BB01C7155AE00BDCF4B /* SeeMe.xcdatamodeld in Sources */,
+				274D02171C73F4E1002F3E72 /* NavigationBar.swift in Sources */,
+				27D834181C7BE74E00C6D91D /* Movie+CoreDataProperties.swift in Sources */,
 				27DD1BA81C7155AE00BDCF4B /* AppDelegate.swift in Sources */,
+				2761CBB51C727571005798DC /* Movie.swift in Sources */,
+				274D02151C73CF4C002F3E72 /* DetailedViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275103A21C7C6F9C0090BD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 275103A11C7C6F9C0090BD1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		27DD1BAB1C7155AE00BDCF4B /* Main.storyboard */ = {
@@ -251,23 +493,39 @@
 		};
 		27DD1BBA1C7155AE00BDCF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCD0DB5FD16AF116EDBC255 /* Pods-SeeMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeeMe/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SeeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leandersson.SeeMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WatchMe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		27DD1BBB1C7155AE00BDCF4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C8F14FEC9049CE1D5AA0A4 /* Pods-SeeMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeeMe/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SeeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leandersson.SeeMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WatchMe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +548,7 @@
 				27DD1BBB1C7155AE00BDCF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
